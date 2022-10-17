@@ -45,7 +45,7 @@ public class LogIn {
 	@BeforeMethod
 	public void m1()
 	{
-		System.out.println("----------------------------------");
+		System.out.println("------Hellow and welcome to GIT-HUb------------");
 	}
 	
 	@Parameters({"UN","pass"})
