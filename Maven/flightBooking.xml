@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="url" value="https://demo.guru99.com/test/newtours/register.php"></parameter>
+  <parameter name="first" value="Mahesh"></parameter>
+  <parameter name="last" value="Raghu"></parameter>
+  <parameter name="phone" value="1234569870"></parameter>
+  <parameter name="email" value="abc@gmail.com"></parameter>
+  <parameter name="add" value="Akurdi"></parameter>
+  <parameter name="city" value="pune"></parameter>
+  <parameter name="state" value="Kerala"></parameter>
+  <parameter name="post" value="411022"></parameter>
+  <parameter name="email" value="ZZZZ"></parameter>
+  <parameter name="pass" value="zzzz"></parameter>
+  <parameter name="confirm" value="zzzz"></parameter>
+  <parameter name="id" value="ZZZZ"></parameter>
+  <parameter name="pw" value="zzzz"></parameter>
+    <classes>
+      <class name="DemoGuru.FlightBooking"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

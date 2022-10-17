@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="url" value="https://demowebshop.tricentis.com/"></parameter>
+  <parameter name="Fname" value="pradeep"></parameter>
+  <parameter name="Lname" value="Chake"></parameter>
+  <parameter name="email" value="pradeep02@gmail.com"></parameter>
+  <parameter name="pass" value="klam@120"></parameter>
+  <parameter name="Cpass" value="klam@120"></parameter>
+  <parameter name="id" value="raghumahesh77@gmail.com"></parameter>
+  <parameter name="password" value="123456"></parameter>
+    <classes>
+      <class name="demoWebShop.Book_purchase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

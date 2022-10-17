@@ -1,0 +1,4 @@
+ERROR	2022-10-12 17:08:55,773	0	project.DemoShop1	[main]	Email id already exsits
+ERROR	2022-10-12 17:08:58,848	3075	project.DemoShop1	[main]	If login failed please check enter valid email id and password
+ERROR	2022-10-12 17:09:48,416	0	project.DemoShop1	[main]	Email id already exsits
+ERROR	2022-10-12 17:09:53,068	4652	project.DemoShop1	[main]	If login failed please check enter valid email id and password

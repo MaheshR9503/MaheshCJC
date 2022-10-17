@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="login" value="https://demo.guru99.com/test/newtours/login.php"></parameter>
+  <parameter name="flightBooking" value="https://demo.guru99.com/test/newtours/reservation.php"></parameter>
+    <classes>
+      <class name="pom_DemoGuru.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
