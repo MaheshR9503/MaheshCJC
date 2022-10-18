@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pom_DemoGuru.Test1">
+      <class name="automation_Practice.HTML">
         <methods>
-          <include name="flight"/>
-          <include name="openBrowser"/>
           <include name="getUrl"/>
+          <include name="browser"/>
           <include name="max"/>
+          <include name="logIn"/>
         </methods>
-      </class> <!-- pom_DemoGuru.Test1 -->
+      </class> <!-- automation_Practice.HTML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
